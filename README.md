@@ -39,3 +39,41 @@ The frontend uses Material-UI for the user interface, and the backend is powered
 
 ```bash
 git clone https://github.com/aravindinduri/Erino-assignment.git
+```
+
+### 2. Install Dependencies
+
+Navigate to the project folder and install the required dependencies for both the frontend and backend:
+
+#### Frontend
+
+```bash
+cd client
+npm install
+```
+### Backend
+``` bash
+cd server
+npm install
+```
+### 3.Set Up Environment Variables
+Create a .env file in the server directory and add the following variables.
+```bash
+MONGO_URI=<Your MongoDB connection URI>
+PORT=5000
+```
+### 4. Run the Application
+Backend
+Start the backend server:
+``` bash
+npm run dev
+```
+### Frontend
+In a new terminal window, go to the client directory and run the frontend.
+``` bash
+npm run dev
+```
+
+### Images
+![Screenshot](https://i.ibb.co/6XrtZ1s/Screenshot-from-2024-11-15-22-13-46.png)
+![Screenshot](https://i.ibb.co/j4HmVfv/Screenshot-from-2024-11-15-22-13-38.png)
